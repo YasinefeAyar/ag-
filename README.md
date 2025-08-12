@@ -1,49 +1,41 @@
-# ag-📋 Proje Tanımı
-Bu proje, akıllı şehir çözümlerini tanıtmak amacıyla geliştirilmiş statik bir açılış sayfasıdır. Yalnızca HTML ve CSS kullanılarak oluşturulmuştur.
+# ag-SmartUrban Vision: AI-Powered Urban Monitoring Platform
+🌍 Çarpık kentleşmeye teknoloji ile çözüm
 
-✨ Özellikler
-Tamamen responsive tasarım
+📌 Proje Özeti
+SmartUrban Vision, yapay zeka, uydu görüntüleri ve IoT sensörleri kullanarak kaçak yapılaşmayı tespit eden bir web tabanlı şehir izleme platformudur.
 
-Modern ve minimalist arayüz
+🚀 Özellikler
+Uydu görüntüleriyle kaçak yapı tespiti
 
-CSS animasyonları
+Gerçek zamanlı veri görselleştirme
 
-Tarayıcı uyumluluğu (Chrome, Firefox, Safari, Edge)
+Responsive ve kullanıcı dostu arayüz
 
-🛠️ Teknolojiler
-HTML5
+📂 Kurulum (HTML/CSS Tabanlı)
+1. Gereksinimler
+Modern tarayıcı (Chrome, Firefox, Edge)
 
-CSS3
+Temel HTML/CSS/JS bilgisi
 
-Flexbox/Grid layout
+2. Kurulum Adımları
+bash
+# Projeyi klonla
+git clone https://github.com/smarturbanvision/web-interface.git
 
-📂 Proje Dizini
+# Proje dizinine gir
+cd web-interface
+
+# Ana sayfayı başlat
+start index.html  # Windows
+open index.html   # MacOS
+xdg-open index.html  # Linux
+3. Dosya Yapısı
 text
-akilli-sehir/
-├── index.html
-├── style.css
-├── assets/
-│   ├── css/
-│   ├── img/
-│   └── icons/
-└── README.md
-🚀 Kurulum
-Projeyi klonlayın:
+web-interface/
+├── index.html        # Ana sayfa
+├── css/
+│   └── style.css     # Temel stiller
+├── js/
+│   └── app.js        # Harita fonksiyonları
+└── assets/           # Görseller ve ik
 
-bash
-git clone https://github.com/kullaniciadi/akilli-sehir.git
-Proje dizinine gidin:
-
-bash
-cd akilli-sehir
-Tarayıcıda açın:
-
-bash
-# Windows
-start index.html
-
-# macOS
-open index.html
-
-# Linux
-xdg-open index.html
